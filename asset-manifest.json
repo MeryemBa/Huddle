@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Huddle/static/css/main.c8c766de.chunk.css",
+    "main.js": "/Huddle/static/js/main.6c743c80.chunk.js",
+    "main.js.map": "/Huddle/static/js/main.6c743c80.chunk.js.map",
+    "runtime-main.js": "/Huddle/static/js/runtime-main.93d00afb.js",
+    "runtime-main.js.map": "/Huddle/static/js/runtime-main.93d00afb.js.map",
+    "static/js/2.767a9482.chunk.js": "/Huddle/static/js/2.767a9482.chunk.js",
+    "static/js/2.767a9482.chunk.js.map": "/Huddle/static/js/2.767a9482.chunk.js.map",
+    "index.html": "/Huddle/index.html",
+    "precache-manifest.a739759f4d880c3a07ee805eda0c2b78.js": "/Huddle/precache-manifest.a739759f4d880c3a07ee805eda0c2b78.js",
+    "service-worker.js": "/Huddle/service-worker.js",
+    "static/css/main.c8c766de.chunk.css.map": "/Huddle/static/css/main.c8c766de.chunk.css.map",
+    "static/js/2.767a9482.chunk.js.LICENSE.txt": "/Huddle/static/js/2.767a9482.chunk.js.LICENSE.txt",
+    "static/media/hero-section-styles.scss": "/Huddle/static/media/bg-hero-mobile.db68da70.svg",
+    "static/media/icon-email.svg": "/Huddle/static/media/icon-email.a11eb54c.svg",
+    "static/media/icon-location.svg": "/Huddle/static/media/icon-location.4f06e7d5.svg",
+    "static/media/icon-phone.svg": "/Huddle/static/media/icon-phone.d449ff0d.svg",
+    "static/media/illustration-flowing-conversation.svg": "/Huddle/static/media/illustration-flowing-conversation.6641e825.svg",
+    "static/media/illustration-grow-together.svg": "/Huddle/static/media/illustration-grow-together.bb27da81.svg",
+    "static/media/illustration-mockups.svg": "/Huddle/static/media/illustration-mockups.88090ace.svg",
+    "static/media/illustration-your-users.svg": "/Huddle/static/media/illustration-your-users.8a5af995.svg",
+    "static/media/logo.svg": "/Huddle/static/media/logo.3cb86730.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93d00afb.js",
+    "static/js/2.767a9482.chunk.js",
+    "static/css/main.c8c766de.chunk.css",
+    "static/js/main.6c743c80.chunk.js"
+  ]
+}
