@@ -1,0 +1,43 @@
+@import "../../variable.scss";
+.cta-container {
+  height: 150px;
+  width: 100%;
+  position: relative;
+
+  & .cta {
+    width: 50%;
+    height: fit-content;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px 100px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    @include grayBoxShadow;
+    @media screen and (max-width: $tablet) {
+      width: 70%;
+      padding: 25px 15px;
+      top: 25%;
+    }
+    @media screen and (max-width: $mobile) {
+      width: 95%;
+
+      & h2 {
+        font-size: 1.29rem;
+      }
+      & button {
+        margin: 15px;
+        width: 25%;
+        padding: 5px 25px;
+      }
+    }
+  }
+}

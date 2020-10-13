@@ -1,0 +1,18 @@
+$pink-color: hsl(322, 100%, 66%);
+$pink-color-on-hover: hsl(322, 100%, 60%);
+$pale-cyan: hsl(192, 100%, 96%);
+$pale-cyan-on-hover: hsl(0, 0%, 99%);
+$dark-cyan: hsl(192, 100%, 9%);
+$grayish-blue: hsl(209, 11%, 55%);
+$mobile: 700px;
+$tablet: 1024px;
+@mixin pinkBoxShadow {
+  -webkit-box-shadow: 3px 6px 14px -6px rgba(255, 51, 180, 1);
+  -moz-box-shadow: 3px 6px 14px -6px rgba(255, 51, 180, 1);
+  box-shadow: 3px 6px 14px -6px rgba(255, 51, 180, 1);
+}
+@mixin grayBoxShadow {
+  -webkit-box-shadow: 3px 6px 14px -6px rgba(128, 125, 128, 1);
+  -moz-box-shadow: 3px 6px 14px -6px rgba(128, 125, 128, 1);
+  box-shadow: 3px 6px 14px -6px rgba(128, 125, 128, 1);
+}

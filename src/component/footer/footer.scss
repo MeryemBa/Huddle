@@ -1,0 +1,139 @@
+@import "../../variable.scss";
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 150px 100px;
+  padding-bottom: 100px;
+  background-color: $dark-cyan;
+  color: white;
+
+  & .logo {
+    padding: 0;
+    width: 240px;
+    height: 50px;
+    @media screen and (max-width: $mobile) {
+      width: 200px;
+      height: 36px;
+      margin: 10px 0;
+    }
+  }
+  & .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    @media screen and (max-width: $tablet) {
+      flex-wrap: wrap;
+    }
+    & div {
+      height: 100%;
+      max-width: 280px;
+      width: 280px;
+      margin-right: 50px;
+      @media screen and (max-width: $tablet) {
+        margin-right: 10px;
+      }
+
+      @media screen and (max-width: $mobile) {
+        width: 90%;
+        margin: 0;
+      }
+    }
+    & div:last-child {
+      padding-top: 15px;
+    }
+
+    & li {
+      padding: 10px 0;
+      margin: 5px 0;
+      cursor: pointer;
+      &:hover {
+        color: $pink-color;
+        transition: 0.33s ease-in-out;
+      }
+    }
+    & .crd {
+      & li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        cursor: unset;
+        padding-left: 0;
+        margin-left: 0;
+        &:hover {
+          color: unset;
+        }
+      }
+      & .icon {
+        display: inline-block;
+        min-width: 30px;
+        width: 30px;
+        height: 30px;
+
+        margin-right: 15px;
+        & img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    & .social {
+      display: flex;
+      flex-direction: row;
+      justify-self: flex-start;
+      align-items: center;
+      & .icon {
+        width: 40px;
+        height: 40px;
+
+        margin-right: 15px;
+        border: 0.5px solid;
+        border-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+          color: $pink-color-on-hover;
+          border-color: $pink-color-on-hover;
+          transition: 0.33s ease-in-out;
+        }
+      }
+      @media screen and (max-width: $mobile) {
+        margin: 20px auto;
+        justify-content: center;
+      }
+    }
+    @media screen and (max-width: $mobile) {
+      flex-direction: column;
+    }
+  }
+  & .copyright {
+    align-self: flex-end;
+    width: max-content;
+    margin-right: 20px;
+    font-size: 16px;
+
+    @media screen and (max-width: $mobile) {
+      width: 90%;
+      margin-right: 0;
+      align-self: center;
+
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: $tablet) {
+    padding: 100px 50px;
+  }
+  @media screen and (max-width: $mobile) {
+    padding: 100px 25px;
+  }
+}

@@ -1,0 +1,42 @@
+@import "../../variable.scss";
+.errorContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $pale-cyan;
+
+  color: $dark-cyan;
+  & div {
+    width: 50%;
+
+    text-align: center;
+    @media screen and (max-width: $tablet) {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  & h1 {
+    font-size: 165px;
+
+    @media screen and (max-width: $tablet) {
+      font-size: 7rem;
+    }
+
+    & span {
+      color: $pink-color;
+    }
+  }
+  & h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  & .link {
+    color: $pink-color;
+
+    text-decoration: underline;
+  }
+}

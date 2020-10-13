@@ -1,0 +1,41 @@
+@import "../../variable.scss";
+button {
+  min-width: fit-content;
+  width: 65%;
+  height: 45px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 70px;
+  border-radius: 50px;
+  background-color: $pink-color;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  margin: 30px 0;
+  letter-spacing: 0.25px;
+  font-weight: bold;
+  cursor: pointer;
+  @include pinkBoxShadow;
+  &:hover {
+    background-color: $pink-color-on-hover;
+  }
+}
+.header-button {
+  width: 100%;
+  height: 100%;
+
+  background-color: #fff;
+  color: $dark-cyan;
+  margin: 0;
+  padding: 10px 60px;
+  @include grayBoxShadow;
+  &:hover {
+    background-color: $pale-cyan-on-hover;
+  }
+  @media screen and (max-width: $tablet) {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+}
