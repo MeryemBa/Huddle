@@ -1,5 +1,7 @@
 # Huddle
 
+### Link: https://meryemba.github.io/Huddle
+
 ## Desktop-first landing page for **Huddle** website using React and Sass.
 
 This project is a Challenge by [Frontend Mentor](https://www.frontendmentor.io/ "Frontend Mentor"), a platform where we build out websites based on a provided design _(images and svg icons are also provided)_.
