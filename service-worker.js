@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Huddle/precache-manifest.a739759f4d880c3a07ee805eda0c2b78.js"
+  "/Huddle/precache-manifest.ae9a7165bd67f9e0e7f7a1a373a5aab0.js"
 );
 
 self.addEventListener('message', (event) => {

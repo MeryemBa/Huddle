@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f322412354e7bae8653ad5476ee3983c",
+    "revision": "9472a93da62c6560bf0741fc8c9a2894",
     "url": "/Huddle/index.html"
   },
   {
-    "revision": "868fbe40139311ac3d3d",
+    "revision": "c2344d1108c102a62ff0",
     "url": "/Huddle/static/css/main.c8c766de.chunk.css"
   },
   {
-    "revision": "0c88c07884bf9b3228a8",
-    "url": "/Huddle/static/js/2.767a9482.chunk.js"
+    "revision": "cf401fa5eecb41094a3e",
+    "url": "/Huddle/static/js/2.89c4c05d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Huddle/static/js/2.767a9482.chunk.js.LICENSE.txt"
+    "url": "/Huddle/static/js/2.89c4c05d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "868fbe40139311ac3d3d",
-    "url": "/Huddle/static/js/main.6c743c80.chunk.js"
+    "revision": "c2344d1108c102a62ff0",
+    "url": "/Huddle/static/js/main.50197fd9.chunk.js"
   },
   {
     "revision": "0c891bcc0a9e1db6bfa4",
