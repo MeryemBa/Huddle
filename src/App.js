@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <Switch>
-      <Route exact path="/" component={HomePage} />
+      <Route  exact path="/" component={HomePage} />
       <Route component={ErrorPage} />
     </Switch>
   );
